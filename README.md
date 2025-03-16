@@ -22,7 +22,7 @@
       surname VARCHAR(255) NOT NULL,    
       age INT NOT NULL,                  
       email VARCHAR(255) NOT NULL     
-  );
+  ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 ```
 
